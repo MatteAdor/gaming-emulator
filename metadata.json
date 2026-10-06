@@ -1,0 +1,6 @@
+{
+  "name": "CracrabracBox",
+  "description": "High-performance ARM64 PC gaming container and translation engine powered by Box64, Wine, and Turnip Mesa Vulkan drivers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

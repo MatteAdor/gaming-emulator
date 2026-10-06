@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center gaming controller glyph -->
+    <path
+        android:pathData="M38,36 L70,36 C77,36 84,41 86,48 L89,61 C91,69 85,76 77,75 L71,74 L65,68 L43,68 L37,74 L31,75 C23,76 17,69 19,61 L22,48 C24,41 31,36 38,36 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00E5FF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="36"
+                android:endX="88"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#7C4DFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- D-Pad (Left) -->
+    <path
+        android:fillColor="#0B0E17"
+        android:pathData="M35,46 L39,46 L39,50 L43,50 L43,54 L39,54 L39,58 L35,58 L35,54 L31,54 L31,50 L35,50 Z" />
+    <!-- Action buttons (Right) -->
+    <path
+        android:fillColor="#0B0E17"
+        android:pathData="M73,47 A2.5,2.5 0 1,1 73,52 A2.5,2.5 0 1,1 73,47 Z" />
+    <path
+        android:fillColor="#0B0E17"
+        android:pathData="M68,52 A2.5,2.5 0 1,1 68,57 A2.5,2.5 0 1,1 68,52 Z" />
+    <path
+        android:fillColor="#0B0E17"
+        android:pathData="M78,52 A2.5,2.5 0 1,1 78,57 A2.5,2.5 0 1,1 78,52 Z" />
+    <path
+        android:fillColor="#0B0E17"
+        android:pathData="M73,57 A2.5,2.5 0 1,1 73,62 A2.5,2.5 0 1,1 73,57 Z" />
+    <!-- Center LED status glow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,48 A2,2 0 1,1 52,52 A2,2 0 1,1 52,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,48 A2,2 0 1,1 56,52 A2,2 0 1,1 56,48 Z" />
+</vector>
